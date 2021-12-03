@@ -116,6 +116,18 @@
 }
 
 /* header styling */
+.container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLinks ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .headerLinks a{
   margin: 0 20px;
+  display: flex;
+  flex-direction: column;
 }

@@ -2,6 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import LinkedinIcon from '../components/icons/LinkedinIcon';
+import InstaIcon from '../components/icons/InstaIcon';
+import GithubIcon from '../components/icons/GithubIcon';
+import CodepenIcon from '../components/icons/CodepenIcon';
 
 const Home: NextPage = () => {
   return (
@@ -17,10 +21,24 @@ const Home: NextPage = () => {
           <img/>
         </div>
         <div className={styles.headerLinks}>
-          <a>1. About</a>
-          <a>2. Experience</a>
-          <a>3. Work</a>
-          <a>4. Contact</a>
+          <ul>
+            <li>
+              <a>1. About</a>
+            </li>
+            <li>
+              <a>2. Experience</a>
+            </li>
+            <li>
+              <a>3. Work</a>
+            </li>
+            <li>
+              <a>4. Contact</a>
+                <GithubIcon/>
+                <CodepenIcon/>
+                <InstaIcon/>
+                <LinkedinIcon/>      
+            </li>
+          </ul>
         </div>
       </header>
 
