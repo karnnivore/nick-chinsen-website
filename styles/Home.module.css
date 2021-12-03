@@ -114,3 +114,8 @@
     flex-direction: column;
   }
 }
+
+/* header styling */
+.headerLinks a{
+  margin: 0 20px;
+}
