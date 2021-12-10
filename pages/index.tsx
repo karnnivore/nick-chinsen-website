@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { LandingLayout } from '../components/layout/LandingLayout'
 import { Hero } from '../components/home/Hero'
 import { About } from '../components/home/About'
