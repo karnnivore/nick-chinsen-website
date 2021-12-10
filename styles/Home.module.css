@@ -2,12 +2,24 @@
   padding: 0 2rem;
 }
 
+.background {
+  opacity: 1;
+  background: linear-gradient(20deg, rgb(76, 236, 248), rgb(0, 113, 223));
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 /* header styling */
 .landingHeader {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 50px;
+  height: 5vh;
 }
 .headerLinks {
   max-width: 30%;
@@ -63,6 +75,31 @@
   .main {
     padding: 0 20px;
   }
+}
+
+/* landing section */
+.landingTextSection {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 3.8rem;
+  color: #0c273d;
+  margin: 0;
+}
+
+.nameSubText {
+  font-size: 3.6rem;
+  color: #144369;
+  margin-top: 0;
+}
+
+.landingIntroText {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  line-height: 2rem;
 }
 
 /* about styling */

@@ -16,6 +16,8 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
+      <div className={styles.background}></div>
 
       <header className={styles.landingHeader}>
         <div>
@@ -64,17 +66,19 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <section className={styles.landingTextSection}>
-          <h3>Hi, I&apos;m</h3>
-          <h1>Nick Chinsen.</h1>
-          <h1>I love to build web applications.</h1>
-          <p>
-            I&apos;m a Toronto based full stack developer who specializes in creating 
-            extraordinary digital experiences. Currently, I&apos;m a full stack developer,
-            and life long learner creating human-centered products at <a>LBC IT</a>!
-          </p>
-          <button>
-            Get in touch!
-          </button>
+          <div className={styles.sectionContainer}>
+            <h3>Hi, I&apos;m</h3>
+            <h1 className={styles.name}>Nick Chinsen.</h1>
+            <h2 className={styles.nameSubText}>I love to build web applications.</h2>
+            <p className={styles.landingIntroText}>
+              I&apos;m a Toronto based full stack developer who specializes in creating 
+              extraordinary digital experiences. Currently, I&apos;m a full stack developer,
+              and life long learner creating human-centered products at <a>LBC IT</a>.
+            </p>
+            <button>
+              Get in touch!
+            </button>
+          </div>
         </section>
         <section className={styles.aboutSection}>
           <h1>About me</h1>
