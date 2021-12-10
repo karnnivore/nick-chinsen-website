@@ -1,0 +1,29 @@
+/* landing section */
+.landingTextSection {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+}
+
+.hi {
+  color: #64ffda;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name {
+  font-size: 3.8rem;
+  color: #0c273d;
+  margin: 0;
+}
+
+.nameSubText {
+  font-size: 3.6rem;
+  color: #144369;
+  margin-top: 0;
+}
+
+.landingIntroText {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  line-height: 2rem;
+}
