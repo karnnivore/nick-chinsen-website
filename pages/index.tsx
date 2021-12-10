@@ -58,11 +58,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <section className={styles.landing}>
-          <h3>Hi, I'm</h3>
+          <h3>Hi, I&apos;m</h3>
           <h1>Nick Chinsen.</h1>
           <h1>I love to build web applications.</h1>
-          <p>I'm a Toronto based full stack developer who specializes in creating 
-            extraordinary digital experiences. Currently, I'm a full stack developer,
+          <p>I&apos;m a Toronto based full stack developer who specializes in creating 
+            extraordinary digital experiences. Currently, I&apos;m a full stack developer,
             and life long learner creating human-centered products at <a>LBC IT</a>!
           </p>
           <button>
