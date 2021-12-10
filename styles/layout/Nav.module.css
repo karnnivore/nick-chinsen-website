@@ -1,0 +1,32 @@
+/* header styling */
+.landingHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+}
+.headerLinks {
+  max-width: 30%;
+}
+.headerLinks ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.headerLinks li {
+  margin: 0 20px;
+}
+
+@media (max-width: 500px) {
+  .headerLinks ul {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    flex-direction: column;
+    text-align: right;
+  }
+  .headerLinks li {
+    margin: 0;
+  }
+}
