@@ -2,16 +2,6 @@
   padding: 0 2rem;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -150,9 +140,27 @@
 
 /* main styling */
 .main {
-  padding: 0 100px;
+  min-height: 100vh;
+  padding: 4rem 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
-.landingTextSection {
+@media (max-width: 400px) {
+  .main {
+    padding: 0 20px;
+  }
+}
+
+/* about styling */
+.listAboutMe {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
 }
 
 /* footer styling */

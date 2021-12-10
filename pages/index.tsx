@@ -58,18 +58,47 @@ const Home: NextPage = () => {
       </div>
 
       <main className={styles.main}>
-        <div className={styles.landingTextSection}>
+        <section className={styles.landingTextSection}>
           <h3>Hi, I&apos;m</h3>
           <h1>Nick Chinsen.</h1>
           <h1>I love to build web applications.</h1>
-          <p>I&apos;m a Toronto based full stack developer who specializes in creating 
+          <p>
+            I&apos;m a Toronto based full stack developer who specializes in creating 
             extraordinary digital experiences. Currently, I&apos;m a full stack developer,
             and life long learner creating human-centered products at <a>LBC IT</a>!
           </p>
           <button>
             Get in touch!
           </button>
-        </div>
+        </section>
+        <section className={styles.aboutSection}>
+          <h1>About me</h1>
+          <p>
+            Hi! My name is Nicholas but I usually go by Nick, I love developing interesting
+            things for the web. I've been interested in web development for a long time having
+            built my first website in 2015 (starting with a website builder &#9786;) - 
+            That sparked my intial foray into web development and since then I haven&apos;t 
+            stopped tinkering, learning something new every single day. 
+          </p>
+          <p>
+            I've had the pleasure of working at <a>a web development agency</a>, 
+            <a>a small business</a>, <a>a local non-profit</a>, and done freelance
+            throughout it all. Nowadays my main focus is building responsive & accessible
+            full-stack applications and expereinces at <a>LBC IT Solutions</a> for a
+            wide range of clients.
+          </p>
+          <p>
+            Here are some of the technologies I have been working with recently:
+            <ul className={styles.listAboutMe}>
+              <li>TypeScript</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+              <li>.NET</li>
+              <li>WordPress</li>
+              <li>Python</li>
+            </ul>
+          </p>
+        </section>
       </main>
 
       <footer className={styles.footer}>
