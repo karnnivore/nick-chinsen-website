@@ -23,16 +23,16 @@ const Home: NextPage = () => {
         <div className={styles.headerLinks}>
           <ul>
             <li>
-              <a>1. About</a>
+              <a>About</a>
             </li>
             <li>
-              <a>2. Experience</a>
+              <a>Experience</a>
             </li>
             <li>
-              <a>3. Work</a>
+              <a>Work</a>
             </li>
             <li>
-              <a>4. Contact</a>
+              <a>Contact</a>
             </li>
           </ul>
         </div>

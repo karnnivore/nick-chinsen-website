@@ -103,6 +103,8 @@
 .landingHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
 }
 .headerLinks {
   max-width: 50%;
@@ -114,8 +116,6 @@
 
 .headerLinks a{
   margin: 0 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 /* sidebar social links */
