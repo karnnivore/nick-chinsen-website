@@ -87,8 +87,8 @@ const Home: NextPage = () => {
             striving to learn something new every single day. 
           </p>
           <p>
-            I've had the pleasure of working at <a>a web development agency</a>, 
-            <a>a small business</a>, <a>a local non-profit</a>, and I've done freelance
+            I&apos;ve had the pleasure of working at <a>a web development agency</a>, 
+            <a>a small business</a>, <a>a local non-profit</a>, and I&apos;ve done freelance
             projects throughout it all. Nowadays my main focus is building responsive & 
             accessible full-stack applications and expereinces at <a>LBC IT Solutions</a> 
             for a wide range of clients.
@@ -106,13 +106,13 @@ const Home: NextPage = () => {
           </p>
         </section>
         <section className={styles.careerSection}>
-          <h1>Places I've worked</h1>
+          <h1>Places I&apos;ve worked</h1>
         </section>
         <section className={styles.workSection}>
-          <h1>A Few Things I've Built</h1>
+          <h1>A Few Things I&apos;ve Built</h1>
         </section>
         <section className={styles.contactSection}>
-          <h1>What's Next?</h1>
+          <h1>What&apos;s Next?</h1>
         </section>
       </main>
 
