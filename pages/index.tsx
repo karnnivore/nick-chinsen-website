@@ -57,6 +57,11 @@ const Home: NextPage = () => {
         </ul>
       </div>
 
+      <div className={styles.sidebarEmail}>
+        <a>nicholaschinsen@gmail.com</a>
+        <div className={styles.emailLine}></div>
+      </div>
+
       <main className={styles.main}>
         <section className={styles.landingTextSection}>
           <h3>Hi, I&apos;m</h3>

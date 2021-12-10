@@ -163,6 +163,21 @@
   list-style: none;
 }
 
+/* sidebar styling */
+.sidebarEmail {
+  position: fixed;
+  right: 4vw;
+  bottom: 0;
+}
+.sidebarEmail a{
+  writing-mode: vertical-rl;
+}
+.emailLine {
+  border-left: 1px solid black;
+  height: 50px;
+  margin-left: 8px;
+}
+
 /* footer styling */
 .footer {
   display: flex;
