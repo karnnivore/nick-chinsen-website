@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Nick Chinsen - Full Stack Developer</title>
         <meta name="description" content="Nick Chinsen full stack developer based in Toronto" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
               <a>About</a>
             </li>
             <li>
-              <a>Experience</a>
+              <a>Career</a>
             </li>
             <li>
               <a>Work</a>
@@ -57,7 +58,7 @@ const Home: NextPage = () => {
       </div>
 
       <main className={styles.main}>
-        <section className={styles.landing}>
+        <div className={styles.landingTextSection}>
           <h3>Hi, I&apos;m</h3>
           <h1>Nick Chinsen.</h1>
           <h1>I love to build web applications.</h1>
@@ -68,7 +69,7 @@ const Home: NextPage = () => {
           <button>
             Get in touch!
           </button>
-        </section>
+        </div>
       </main>
 
       <footer className={styles.footer}>
