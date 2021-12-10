@@ -75,17 +75,18 @@ const Home: NextPage = () => {
           <h1>About me</h1>
           <p>
             Hi! My name is Nicholas but I usually go by Nick, I love developing interesting
-            things for the web. I've been interested in web development for a long time having
-            built my first website in 2015 (starting with a website builder &#9786;) - 
-            That sparked my intial foray into web development and since then I haven&apos;t 
-            stopped tinkering, learning something new every single day. 
+            things for the web. My first foray into web development was my first website 
+            which I built in 2012 (basic html/css forever hidden from the world &#9786;) - 
+            That project sparked my initial obsession with web development and later coding 
+            which has continued till today. Since then I haven&apos;t stopped tinkering, 
+            striving to learn something new every single day. 
           </p>
           <p>
             I've had the pleasure of working at <a>a web development agency</a>, 
-            <a>a small business</a>, <a>a local non-profit</a>, and done freelance
-            throughout it all. Nowadays my main focus is building responsive & accessible
-            full-stack applications and expereinces at <a>LBC IT Solutions</a> for a
-            wide range of clients.
+            <a>a small business</a>, <a>a local non-profit</a>, and I've done freelance
+            projects throughout it all. Nowadays my main focus is building responsive & 
+            accessible full-stack applications and expereinces at <a>LBC IT Solutions</a> 
+            for a wide range of clients.
           </p>
           <p>
             Here are some of the technologies I have been working with recently:
@@ -98,6 +99,15 @@ const Home: NextPage = () => {
               <li>Python</li>
             </ul>
           </p>
+        </section>
+        <section className={styles.careerSection}>
+          <h1>Places I've worked</h1>
+        </section>
+        <section className={styles.workSection}>
+          <h1>A Few Things I've Built</h1>
+        </section>
+        <section className={styles.contactSection}>
+          <h1>What's Next?</h1>
         </section>
       </main>
 
