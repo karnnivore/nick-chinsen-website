@@ -84,6 +84,11 @@
   align-items: center;
 }
 
+.hi {
+  color: #64ffda;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .name {
   font-size: 3.8rem;
   color: #0c273d;
