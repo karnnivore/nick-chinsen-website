@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
+      <header className={styles.landingHeader}>
         <div>
           <img/>
         </div>
@@ -33,23 +33,37 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a>4. Contact</a>
-                <GithubIcon/>
-                <CodepenIcon/>
-                <InstaIcon/>
-                <LinkedinIcon/>      
             </li>
           </ul>
         </div>
       </header>
 
+      <div className={styles.sideBarSocials}>
+        <ul>
+          <li>
+            <a><GithubIcon/></a>
+          </li>
+          <li>
+            <a><CodepenIcon/></a>
+          </li>
+          <li>
+            <a><InstaIcon/></a>
+          </li>
+          <li>
+            <a><LinkedinIcon/></a>
+          </li> 
+          <div className={styles.verticalLine}></div>
+        </ul>
+      </div>
+
       <main className={styles.main}>
         <section className={styles.landing}>
-          <h3>Hai, I'm</h3>
+          <h3>Hi, I'm</h3>
           <h1>Nick Chinsen.</h1>
-          <h1>I'm a full stack developer.</h1>
+          <h1>I love to build web applications.</h1>
           <p>I'm a Toronto based full stack developer who specializes in creating 
             extraordinary digital experiences. Currently, I'm a full stack developer,
-            and life long learner creating human-centered products at <a>LBC IT</a>.
+            and life long learner creating human-centered products at <a>LBC IT</a>!
           </p>
           <button>
             Get in touch!
