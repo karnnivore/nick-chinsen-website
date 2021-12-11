@@ -5,7 +5,7 @@ import { SectionContainer } from '../layout/SectionContainer'
 export const About = () => {
   return (
     <SectionContainer>
-      <section className={styles.aboutSection}>
+      <section className={styles.aboutSection} id="about-section">
         <h1>About me</h1>
         <p>
           Hi! My name is Nicholas but I usually go by Nick, I love developing interesting

@@ -9,6 +9,8 @@ body {
   color: #0f3351;
   font-family: Josefin Sans;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 a {

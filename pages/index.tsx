@@ -7,10 +7,54 @@ import { Footer } from '../components/layout/Footer'
 import { Career } from '../components/home/Career'
 import { Contact } from '../components/home/Contact'
 import { Work } from '../components/home/Work'
+import { useRef, useState } from 'react'
 
 const Home: NextPage = () => {
+  const sectionList = ['hero-section', 'about-section', 'career-section', 'work-section', 'contact-section']
+  const [current, setCurrent] = useState(0)
+
+  const onScroll = (e: any) => {
+    if (e.deltaY > 0) {
+      console.log('Scrolling Down')
+      scrollDownToElement(current)
+    } else {
+      console.log('Scrolling Up')
+      scrollUpToElement(current)
+    }
+  }
+
+  const scrollDownToElement = (current: number) => {
+    console.log(current)
+    let id = sectionList[current+1]
+    let element = document.getElementById(id)
+    element?.scrollIntoView({
+      behavior: 'auto',
+      block: 'center',
+      inline: 'center'
+    })    
+    if (current < sectionList.length - 1){
+      current += 1
+    }
+    setCurrent(current)
+  }
+
+  const scrollUpToElement = (current: number) => {
+    console.log(current)
+    let id = sectionList[current-1]
+    let element = document.getElementById(id)
+    if (current > 0) {
+      current -= 1
+    }
+    element?.scrollIntoView({
+      behavior: 'auto',
+      block: 'center',
+      inline: 'center'
+    })    
+    setCurrent(current)
+  }
+
   return (
-    <>
+    <div onWheel={onScroll}>
       <Head>
         <title>Nick Chinsen - Full Stack Developer</title>
         <meta name="description" content="Nick Chinsen full stack developer based in Toronto" />
@@ -26,7 +70,7 @@ const Home: NextPage = () => {
         <Contact/>
       </LandingLayout>     
       <Footer/> 
-    </>
+    </div>
   )
 }
 
