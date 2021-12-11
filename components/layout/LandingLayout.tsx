@@ -10,6 +10,8 @@ export const LandingLayout = ({children}: any) => {
       <main className={styles.main}>
         {/* layout components */}
         <div className={styles.background}></div>
+        <div className={styles.background2}></div>
+        <div className={styles.background3}></div>
         <Nav/>
         <Sidebar/>
         <EmailSidebar/>
