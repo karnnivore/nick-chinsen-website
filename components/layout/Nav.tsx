@@ -4,9 +4,6 @@ import styles from '../../styles/layout/Nav.module.css'
 export const Nav = () => {
   return (
     <header className={styles.landingHeader}>
-      <div>
-        <img/>
-      </div>
       <div className={styles.headerLinks}>
         <ul>
           <li>
