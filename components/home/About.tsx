@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../../styles/home/About.module.css'
+import { SectionContainer } from '../layout/SectionContainer'
 
 export const About = () => {
   return (
-    <React.Fragment>
+    <SectionContainer>
       <section className={styles.aboutSection}>
         <h1>About me</h1>
         <p>
@@ -33,6 +34,6 @@ export const About = () => {
           </ul>
         </p>
       </section>
-    </React.Fragment>
+    </SectionContainer>
   )
 }
