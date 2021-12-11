@@ -1,10 +1,4 @@
 /* landing section */
-.landingTextSection {
-  height: 95vh;
-  display: flex;
-  align-items: center;
-}
-
 .hi {
   color: #64ffda;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

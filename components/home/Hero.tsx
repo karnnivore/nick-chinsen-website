@@ -1,9 +1,9 @@
-import React from 'react'
 import styles from '../../styles/home/Hero.module.css'
+import { SectionContainer } from '../layout/SectionContainer'
 
 export const Hero = () => {
   return(
-    <React.Fragment>
+    <SectionContainer>
       <section className={styles.landingTextSection}>
         <div className={styles.sectionContainer}>
           <h3 className={styles.hi}>Hi, my name is</h3>
@@ -19,6 +19,6 @@ export const Hero = () => {
           </button>
         </div>
       </section>
-    </React.Fragment>
+    </SectionContainer>
   )
 }
