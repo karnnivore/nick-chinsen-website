@@ -8,3 +8,20 @@
   overflow: hidden;
   list-style: none;
 }
+
+.aboutSection h1 {
+  font-size: 3em;
+}
+
+.aboutSection p {
+  font-size: 1.3em;
+}
+
+@media (max-width: 400px) {
+  .aboutSection h1 {
+    margin-bottom: 5px;
+  }
+  .aboutSection p {
+    font-size: 1.1em;
+  }
+}

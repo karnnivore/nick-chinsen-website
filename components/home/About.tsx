@@ -12,8 +12,9 @@ export const About = () => {
           things for the web. My first foray into web development was my first website 
           which I built in 2012 (basic html/css forever hidden from the world &#9786;) - 
           That project sparked my initial obsession with web development and later coding 
-          which has continued till today. Since then I haven&apos;t stopped tinkering, 
-          striving to learn something new every single day. 
+          which has continued till today. Since then, I&apos;ve gone to and finished school for
+          computer science and I haven&apos;t stopped tinkering, striving to learn something new 
+          every single day. 
         </p>
         <p>
           I&apos;ve had the pleasure of working at <a>a web development agency</a>, 
@@ -26,7 +27,7 @@ export const About = () => {
           Here are some of the technologies I have been working with recently:
           <ul className={styles.listAboutMe}>
             <li>TypeScript</li>
-            <li>JavaScript (ES6+)</li>
+            <li>JavaScript ES6+</li>
             <li>React</li>
             <li>.NET</li>
             <li>WordPress</li>
