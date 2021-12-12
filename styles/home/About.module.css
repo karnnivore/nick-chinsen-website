@@ -1,4 +1,7 @@
 /* about styling */
+.aboutSection {
+  display: flex;
+}
 .listAboutMe {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -17,11 +20,37 @@
   font-size: 1.3em;
 }
 
+.aboutSection a {
+  color: black;
+  font-weight: bold;
+}
+
+.imageContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .imageContainer {
+    position: relative;
+    left: 50px;
+  }
+  .textContainer {
+    max-width: 60%;
+  }
+}
+
 @media (max-width: 400px) {
   .aboutSection h1 {
     margin-bottom: 5px;
+    font-size: 26px;
   }
   .aboutSection p {
-    font-size: 1.1em;
+    font-size: 18px;
+  }
+  .aboutSection {
+    flex-direction: column;
   }
 }
