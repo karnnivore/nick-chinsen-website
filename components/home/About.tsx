@@ -25,6 +25,7 @@ export const About = () => {
         </p>
         <p>
           Here are some of the technologies I have been working with recently:
+        </p>
           <ul className={styles.listAboutMe}>
             <li>TypeScript</li>
             <li>JavaScript ES6+</li>
@@ -33,7 +34,7 @@ export const About = () => {
             <li>WordPress</li>
             <li>Python</li>
           </ul>
-        </p>
+       
       </section>
     </SectionContainer>
   )
