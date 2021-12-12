@@ -28,11 +28,11 @@ export const About = () => {
             every single day. 
           </p>
           <p>
-            I&apos;ve had the pleasure of working at <a href={lbc} target="_blank">a web development agency</a>, 
-            <a href={axcys} target="_blank"> a small business</a>, 
-            <a href={crueTV} target="_blank"> a local non-profit</a>, and I&apos;ve done freelance
+            I&apos;ve had the pleasure of working at <a href={lbc} target="_blank" rel="noreferrer">a web development agency</a>, 
+            <a href={axcys} target="_blank" rel="noreferrer"> a small business</a>, 
+            <a href={crueTV} target="_blank" rel="noreferrer"> a local non-profit</a>, and I&apos;ve done freelance
             projects throughout it all. Nowadays my main focus is building responsive & 
-            accessible full-stack applications and experiences at <a href={lbc} target="_blank">LBC IT Solutions </a> 
+            accessible full-stack applications and experiences at <a href={lbc} target="_blank" rel="noreferrer">LBC IT Solutions </a> 
             for a wide range of clients.
           </p>
           <p>
