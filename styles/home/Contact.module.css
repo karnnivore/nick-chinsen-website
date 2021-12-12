@@ -1,3 +1,29 @@
 .contactSection {
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contactNext {
+  font-size: 16px;
+}
+
+.contactConnect {
+  font-size: 45px;
+  margin: 0;
+  color: black;
+}
+
+@media (max-width: 400px) {
+  .contactSection{
+    width: 100%;
+  }
+  .contactConnect{
+    font-size: 40px;
+  }  
 }
