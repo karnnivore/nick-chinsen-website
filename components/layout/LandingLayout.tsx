@@ -4,7 +4,7 @@ import { Nav } from './Nav'
 import { Sidebar } from './Sidebar'
 import { EmailSidebar } from './EmailSidebar'
 
-export const LandingLayout = ({children}: any) => {
+export const LandingLayout = ({children, show}: any) => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -12,7 +12,7 @@ export const LandingLayout = ({children}: any) => {
         <div className={styles.background}></div>
         <div className={styles.background2}></div>
         <div className={styles.background3}></div>
-        <Nav/>
+        <Nav show={show}/>
         <Sidebar/>
         <EmailSidebar/>
         {children}

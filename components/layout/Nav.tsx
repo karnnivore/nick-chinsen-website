@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../../styles/layout/Nav.module.css'
 
-export const Nav = () => {
+interface INavProps {
+  show: boolean;
+}
+export const Nav = ({show} : INavProps)=> {
+  
   return (
-    <header className={styles.landingHeader}>
+    <header className={`${show && styles.landingHeader}`}>
       <div className={styles.headerLinks}>
         <ul>
           <li>
-            <a>About</a>
+            <a href="#about-section">About</a>
           </li>
           <li>
-            <a>Career</a>
+            <a href="#career-section">Career</a>
           </li>
           <li>
-            <a>Work</a>
+            <a href="#work-section">Work</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>

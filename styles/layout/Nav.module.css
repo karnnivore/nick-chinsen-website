@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   height: 5vh;
-}
-.headerLinks {
-  max-width: 30%;
+  position: fixed;
+  transition-timing-function: ease-in;
+  transition: 1.5s;
+  width: 70%;
 }
 .headerLinks ul {
   display: flex;
