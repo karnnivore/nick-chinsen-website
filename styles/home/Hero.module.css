@@ -23,9 +23,13 @@
 
 @media (max-width: 400px) {
   .name {
-    font-size: 3em;
+    font-size: 40px;
   }
   .nameSubText {
-    font-size: 1.5em;
+    font-size: 40px;
+  }
+  .landingIntroText {
+    font-size: 18px;
+    line-height: normal;
   }
 }
