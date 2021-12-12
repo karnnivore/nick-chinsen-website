@@ -11,22 +11,21 @@ import { useEffect, useState } from 'react'
 
 const Home: NextPage = () => {
   const [show, setShow] = useState(true)
+  const [scrollPos, setScrollPos] = useState(0);
 
-  const controlNavBar = () => {
-    if (window.scrollY > 100) {
-      console.log('scrolling down')
+  const controlNavBar = (event: any) => {
+    if (event.deltaY > 0){
       setShow(false)
     } else {
-      console.log('scrolling up')
       setShow(true)
     }
   }
 
   useEffect(() => {
-    window.addEventListener('scroll',
+    window.addEventListener('wheel',
     controlNavBar)
     return () => {
-      window.removeEventListener('scroll', controlNavBar)
+      window.removeEventListener('wheel', controlNavBar)
     }
   }, [])
 

@@ -7,7 +7,7 @@ interface INavProps {
 export const Nav = ({show} : INavProps)=> {
   
   return (
-    <header className={`${show && styles.landingHeader}`}>
+    <header className={`${show ? styles.landingHeader : styles.headerHide}`}>
       <div className={styles.headerLinks}>
         <ul>
           <li>

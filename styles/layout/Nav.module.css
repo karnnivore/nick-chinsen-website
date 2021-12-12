@@ -3,10 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5vh;
   position: fixed;
-  transition-timing-function: ease-in;
-  transition: 1.5s;
   width: 70%;
 }
 .headerLinks ul {
@@ -17,6 +14,18 @@
 
 .headerLinks li {
   margin: 0 20px;
+}
+
+.headerLinks {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(8,117,227, 0.75);
+}
+
+.headerHide {
+  display: none;
 }
 
 @media (max-width: 500px) {
