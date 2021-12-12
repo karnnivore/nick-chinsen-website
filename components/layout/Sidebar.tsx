@@ -10,16 +10,13 @@ export const Sidebar = () => {
     <div className={styles.sideBarSocials}>
       <ul>
         <li>
-          <a><GithubIcon/></a>
+          <a href="https://github.com/karnnivore" target="blank"><GithubIcon/></a>
         </li>
         <li>
-          <a><CodepenIcon/></a>
+          <a href="https://codepen.io/karnnivore-the-animator" target="_blank"><CodepenIcon/></a>
         </li>
         <li>
-          <a><InstaIcon/></a>
-        </li>
-        <li>
-          <a><LinkedinIcon/></a>
+          <a href="https://www.linkedin.com/in/nick-chinsen/" target="_blank"><LinkedinIcon/></a>
         </li> 
         <div className={styles.verticalLine}></div>
       </ul>
