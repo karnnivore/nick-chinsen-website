@@ -13,6 +13,7 @@ export const Landing = () => {
   const [link, setLink] = useState('#landing-section')
   const [linkText, setLinkText] = useState('H I')
   const [hide, setHide] = useState(false)
+  const [flipVertically, setFlipVertically] = useState(false);
 
   const handleArrow = () => {
     let id = sectionList.indexOf(link)
@@ -28,8 +29,17 @@ export const Landing = () => {
     <SectionContainer>
       <div className={styles.landingContainer}> 
         <div className={styles.imageContainer}>
-          <a href="#hero-section">
-            <Tilt glareEnable={true} glareMaxOpacity={0.8} glareColor="#ffffff" glarePosition="bottom" glareBorderRadius="20px" style={{zIndex: 1000}}>
+          {/* <a href="#hero-section"> */}
+          <a onClick={() => setFlipVertically(!flipVertically)}>
+            <Tilt 
+              glareEnable={true} 
+              glareMaxOpacity={0.8} 
+              glareColor="#ffffff" 
+              glarePosition="bottom" 
+              glareBorderRadius="20px" 
+              style={{zIndex: 55}}
+              flipVertically={flipVertically}
+            >
               <img
               src="/images/NLogo2.svg"
               className={styles.n2}
@@ -38,6 +48,7 @@ export const Landing = () => {
               />
             </Tilt>
           </a>
+          {/* </a> */}
         </div>
         <a href={link} className={`${styles.hiButton} ${hide && styles.hide}`} onClick={handleArrow}>
           <span>{linkText}</span>
