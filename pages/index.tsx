@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <Hero/>
         <About/>
         <Career/>
-        <Work/>
+        {/* <Work/> */}
         <Contact/>
       </LandingLayout>     
       <Footer/> 

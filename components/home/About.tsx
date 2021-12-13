@@ -2,13 +2,14 @@ import React from 'react'
 import styles from '../../styles/home/About.module.css'
 import { SectionContainer } from '../layout/SectionContainer'
 import Image from 'next/image'
+import { PlainContainer } from '../common/PlainContainer'
 
 export const About = () => {
   const lbc = "https://lbcit.ca/"
   const axcys = "http://www.axcysfinishing.ca/about.html"
   const crueTV = "https://cruetv.com/home"
   return (
-    <>
+    <PlainContainer>
       <section className={styles.aboutSection} id="about-section">
         <div className={styles.textContainer}>
           <h1>About me</h1>
@@ -58,6 +59,6 @@ export const About = () => {
           />
         </div>
       </section>
-    </>
+    </PlainContainer>
   )
 }

@@ -1,0 +1,10 @@
+@media (min-width: 700px) {
+  .plainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+

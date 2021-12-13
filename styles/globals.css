@@ -68,3 +68,14 @@ ul {
     opacity: 0;
   }
 }
+
+.siteContainer {
+  max-width:1000px; 
+  width: 90vw;
+}
+
+@media (max-width: 400px) {
+  .siteContainer{
+    width: 80vw;
+  }  
+}

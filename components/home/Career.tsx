@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from '../../styles/home/Career.module.css'
 import { CareerCards } from '../common/CareerCards'
+import { PlainContainer } from '../common/PlainContainer'
 
 export const Career = () => {
   const [currentTab, setCurrentTab] = useState(1)
@@ -10,7 +11,7 @@ export const Career = () => {
   }
 
   return(
-    <>
+    <PlainContainer>
       <section className={styles.careerSection} id='career-section'>
         <h1>Places I&apos;ve worked</h1>
         <div className={styles.careerTableSection}>
@@ -34,6 +35,6 @@ export const Career = () => {
           </div>
         </div>
       </section>
-    </>
+    </PlainContainer>
   )
 }

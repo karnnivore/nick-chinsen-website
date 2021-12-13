@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  width: 70%;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 .headerLinks ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-align: right;
 }
 

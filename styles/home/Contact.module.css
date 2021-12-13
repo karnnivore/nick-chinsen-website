@@ -22,6 +22,7 @@
 @media (max-width: 400px) {
   .contactSection{
     width: 100%;
+    height: 50vh;
   }
   .contactConnect{
     font-size: 40px;
