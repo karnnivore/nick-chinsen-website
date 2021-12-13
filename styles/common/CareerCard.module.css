@@ -1,0 +1,21 @@
+.careerCard h3{
+  margin: 0;
+  color: black;
+}
+
+.careerCard ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.careerCard li {
+  margin: 5px 0;
+}
+.careerCard h4 {
+  margin: 5px 0;
+}
+.careerCard h4:nth-child(2) {
+  margin-bottom: 20px;
+}
+.careerCard h4:nth-child(4) {
+  margin-bottom: 20px;
+}

@@ -2,6 +2,11 @@
 .aboutSection {
   display: flex;
 }
+
+.aboutSection h1 {
+  color: black;
+  font-size: 32px;
+}
 .listAboutMe {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -14,6 +19,7 @@
 
 .aboutSection h1 {
   font-size: 3em;
+  margin-bottom: 25px;
 }
 
 .aboutSection p {
