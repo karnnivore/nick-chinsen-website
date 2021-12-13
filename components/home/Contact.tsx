@@ -10,7 +10,7 @@ export const Contact = () => {
         <h1 className={styles.contactNext}>What&apos;s Next?</h1>
         <h1 className={styles.contactConnect}>Lets Connect</h1>
         <p>My inbox is always open. If you have any questions or just want 
-          to say hi, don't hesitate to reach out, I'll make sure to get back to you!</p> 
+          to say hi, don&apos;t hesitate to reach out, I'll make sure to get back to you!</p> 
         <RippleButton link={"#contactSection"} text={"Reach me"}/>
       </section>
     </>
