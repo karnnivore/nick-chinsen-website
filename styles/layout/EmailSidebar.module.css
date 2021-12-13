@@ -7,6 +7,7 @@
 }
 .sidebarEmail a{
   writing-mode: vertical-rl;
+  margin-bottom: 50px;
 }
 .emailLine {
   border-left: 1px solid black;
@@ -19,5 +20,9 @@
     position: fixed;
     right: 2vw;
     bottom: 0;
+  }
+
+  .sidebarEmail a{
+    margin-bottom: 10px;
   }
 }

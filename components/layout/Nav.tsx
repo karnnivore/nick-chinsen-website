@@ -30,6 +30,9 @@ export const Nav = ({show} : INavProps)=> {
           <li>
             <a href="#contact-section" className={styles.link}>Contact</a>
           </li>
+          <li>
+            <a href="/Nick_Chinsen_Resume.pdf" target="_blank" className={styles.link}>Resume</a>
+          </li>
         </ul>
       </div>
     </header>
