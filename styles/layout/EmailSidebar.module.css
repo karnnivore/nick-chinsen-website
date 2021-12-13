@@ -3,6 +3,7 @@
   position: fixed;
   right: 4vw;
   bottom: 0;
+  z-index: 100;
 }
 .sidebarEmail a{
   writing-mode: vertical-rl;
