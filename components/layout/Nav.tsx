@@ -19,16 +19,16 @@ export const Nav = ({show} : INavProps)=> {
             />
           </a>
           <li>
-            <a href="#about-section">About</a>
+            <a href="#about-section" className={styles.link}>About</a>
           </li>
           <li>
-            <a href="#career-section">Career</a>
+            <a href="#career-section" className={styles.link}>Career</a>
           </li>
           {/* <li>
             <a href="#work-section">Work</a>
           </li> */}
           <li>
-            <a href="#contact-section">Contact</a>
+            <a href="#contact-section" className={styles.link}>Contact</a>
           </li>
         </ul>
       </div>
