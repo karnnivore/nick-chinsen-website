@@ -13,9 +13,10 @@
   right: 13px;
 }
 .n2 {
-  height: 100%;
-  width: 100%;
-  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  box-shadow: 5px 10px #888;
 }
 
 .n3 {

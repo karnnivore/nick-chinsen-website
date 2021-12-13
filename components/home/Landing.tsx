@@ -2,6 +2,7 @@ import { SectionContainer } from "../layout/SectionContainer"
 import styles from "../../styles/home/Landing.module.css"
 import Image from 'next/image'
 import { useState } from "react"
+import Tilt from 'react-parallax-tilt'
 
 export const Landing = () => {
   const sectionList=[
@@ -27,24 +28,16 @@ export const Landing = () => {
     <SectionContainer>
       <div className={styles.landingContainer}> 
         <div className={styles.imageContainer}>
-          <img
-          src="/images/N1.svg"
-          className={styles.n1}
-          height={500}
-          width={500}
-          />
-          <img
-          src="/images/N2.svg"
-          className={styles.n2}
-          height={500}
-          width={500}
-          />
-          <img
-          src="/images/N3.svg"
-          className={styles.n3}
-          height={500}
-          width={500}
-          />
+          <a href="#hero-section">
+            <Tilt glareEnable={true} glareMaxOpacity={0.8} glareColor="#ffffff" glarePosition="bottom" glareBorderRadius="20px" style={{zIndex: 1000}}>
+              <img
+              src="/images/NLogo2.svg"
+              className={styles.n2}
+              height={500}
+              width={500}
+              />
+            </Tilt>
+          </a>
         </div>
         <a href={link} className={`${styles.hiButton} ${hide && styles.hide}`} onClick={handleArrow}>
           <span>{linkText}</span>
