@@ -4,8 +4,8 @@ import { SectionContainer } from '../layout/SectionContainer'
 
 export const Hero = () => {
   return(
-    <SectionContainer>
-      <section className={styles.landingTextSection} id="hero-section">
+    <SectionContainer id="hero-section">
+      <section className={styles.landingTextSection}>
         <div className={styles.sectionContainer}>
           <h1 className={styles.name}>Nick Chinsen</h1>
           <h2 className={styles.nameSubText}>Innovation never stops I don&apos;t either</h2>

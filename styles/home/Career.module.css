@@ -1,0 +1,50 @@
+.careerSection {
+  margin-top: 50px;
+  margin-right: 0;
+}
+
+.careerTableSection {
+  display: flex;
+}
+
+/* table */
+.careerth {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.careerth a {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+/* card  */
+.careertd{
+  width: 65%;
+  margin-left: 25px;
+}
+
+.careerCard h3{
+  margin-top: 0;
+}
+
+.careerCard ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.careerCard li {
+  margin: 5px 0;
+}
+
+/* selected table */
+.selected {
+  border-left: 2px solid black;
+}
+
+.selected span {
+  color: black;
+  font-weight: bold;
+}

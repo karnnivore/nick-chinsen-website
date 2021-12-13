@@ -1,8 +1,28 @@
 import { SectionContainer } from "../layout/SectionContainer"
 import styles from "../../styles/home/Landing.module.css"
 import Image from 'next/image'
+import { useState } from "react"
 
 export const Landing = () => {
+  const sectionList=[
+    '#landing-section',
+    '#hero-section',
+    '#about-section'
+  ]
+  const [link, setLink] = useState('#landing-section')
+  const [linkText, setLinkText] = useState('H I')
+  const [hide, setHide] = useState(false)
+
+  const handleArrow = () => {
+    let id = sectionList.indexOf(link)
+    setLink(sectionList[id + 1])
+    
+    if (id == 0)
+      setLinkText('About')
+    if (id == 1)
+      setHide(true)
+  }
+
   return (
     <SectionContainer>
       <div className={styles.landingContainer}> 
@@ -26,8 +46,8 @@ export const Landing = () => {
           width={500}
           />
         </div>
-        <a href="#hero-section" className={styles.hiButton}>
-          <span>H I</span>
+        <a href={link} className={`${styles.hiButton} ${hide && styles.hide}`} onClick={handleArrow}>
+          <span>{linkText}</span>
           <img src="/images/chevron-down-solid.svg" height={35} width={35}/>
         </a>
       </div>

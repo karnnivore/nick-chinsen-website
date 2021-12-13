@@ -8,7 +8,7 @@ export const About = () => {
   const axcys = "http://www.axcysfinishing.ca/about.html"
   const crueTV = "https://cruetv.com/home"
   return (
-    <SectionContainer>
+    <>
       <section className={styles.aboutSection} id="about-section">
         <div className={styles.textContainer}>
           <h1>About me</h1>
@@ -58,6 +58,6 @@ export const About = () => {
           />
         </div>
       </section>
-    </SectionContainer>
+    </>
   )
 }

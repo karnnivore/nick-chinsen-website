@@ -21,7 +21,17 @@
   line-height: 2rem;
 }
 
+.sectionContainer p a {
+  color: black;
+  font-weight: bold;
+}
+
 @media (max-width: 400px) {
+  #hero-section {
+    margin-bottom: 20px;
+    height: 10px;
+    width: 10px;
+  }
   .name {
     font-size: 40px;
   }
