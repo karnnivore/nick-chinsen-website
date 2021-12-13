@@ -8,6 +8,7 @@ import { Career } from '../components/home/Career'
 import { Contact } from '../components/home/Contact'
 import { Work } from '../components/home/Work'
 import { useEffect, useState } from 'react'
+import { Landing } from '../components/home/Landing'
 
 const Home: NextPage = () => {
   const [show, setShow] = useState(true)
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
       </Head>
       
       <LandingLayout show={show}>
+        <Landing/>
         <Hero/>
         <About/>
         <Career/>

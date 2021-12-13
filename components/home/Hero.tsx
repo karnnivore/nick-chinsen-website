@@ -1,4 +1,5 @@
 import styles from '../../styles/home/Hero.module.css'
+import { RippleButton } from '../common/RippleButton'
 import { SectionContainer } from '../layout/SectionContainer'
 
 export const Hero = () => {
@@ -13,11 +14,7 @@ export const Hero = () => {
             extraordinary digital experiences. I&apos;m currently developing accessible,
             modern products at <a>LBC IT Solutions</a>.
           </p>
-          <button>
-            <a href="#about-section">
-              Get in touch!
-            </a>
-          </button>
+          <RippleButton text={"Get in touch!"} link={"#contact-section"}/>
         </div>
       </section>
     </SectionContainer>

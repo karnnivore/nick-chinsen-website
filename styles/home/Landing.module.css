@@ -1,0 +1,36 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+.n1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 13px;
+  top: 5px;
+}
+.n2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.n3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 400px) {
+  .imageContainer img{
+    height: 100%;
+    width: 100%;
+  }  
+  .n1 {
+    top: 2px;
+    right: 3px;
+  }
+}
