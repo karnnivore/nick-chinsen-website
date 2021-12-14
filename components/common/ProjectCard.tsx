@@ -43,7 +43,7 @@ export const ProjectCard = ({
         <div className={styles.projectTechnologies}>
           {projectTechnologies.map((element) => {
             return (
-              <span>{element} </span>
+              <span key={element}>{element} </span>
             )
           })}
         </div>
