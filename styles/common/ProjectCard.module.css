@@ -1,0 +1,66 @@
+.projectCardContainer {
+  display: flex;
+}
+
+/* image styling */
+.imageContainer {
+  width: 650px;
+}
+.imageContainer Image {
+  border-radius: 25%;
+}
+
+/* text tyling */
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+.textContainer h4 {
+  font-size: 1.1em;
+  margin: 0;
+  margin-top: 10px;
+}
+.textContainer h3 {
+  margin: 0;
+  margin-top: 10px;
+  color: black;
+  font-size: 1.5em;
+}
+
+/* project description */
+.projectDescription {
+  margin: 15px 0;
+  background: linear-gradient(200deg, #755bea, #55e7fc);
+  /* background: rgba(16, 118, 219, 0.5); */
+  z-index: 10;
+  position: relative;
+  width: 120%;
+  padding: 1em;
+  color: rgb(15, 15, 15);
+  text-align: right;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* technologies */
+.projectTechnologies span {
+  margin: 0 2px;
+}
+
+/* project link sections */
+.projectLinks {
+  margin: 10px;
+}
+.projectLinks ul{
+  display: flex;
+  flex-direction: row;
+}
+.projectLinks li {
+  margin: 0 5px;
+}
+.projectLinks svg{
+  height: 25px;
+  width: 25px;
+}
