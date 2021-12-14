@@ -11,25 +11,6 @@ import { useEffect, useState } from 'react'
 import { Landing } from '../components/home/Landing'
 
 const Home: NextPage = () => {
-  const [show, setShow] = useState(true)
-  const [scrollPos, setScrollPos] = useState(0);
-
-  const controlNavBar = (event: any) => {
-    if (event.deltaY > 0){
-      setShow(false)
-    } else {
-      setShow(true)
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener('wheel',
-    controlNavBar)
-    return () => {
-      window.removeEventListener('wheel', controlNavBar)
-    }
-  }, [])
-
   return (
     <div>
       <Head>
@@ -37,17 +18,14 @@ const Home: NextPage = () => {
         <meta name="description" content="Nick Chinsen full stack developer based in Toronto" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet"/>
       </Head>
       
-      <LandingLayout show={show}>
+      <LandingLayout>
         <Landing/>
         <Hero/>
         <About/>
         <Career/>
-        <Work/>
+        {/* <Work/> */}
         <Contact/>
       </LandingLayout>     
       <Footer/> 

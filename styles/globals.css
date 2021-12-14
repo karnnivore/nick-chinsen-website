@@ -7,8 +7,6 @@ body {
   max-width: 100vw;
   max-height: 100vh;
   color: #0f3351;
-  font-family: Josefin Sans;
-  font-family: Calibre, Inter, "San Francisco";
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
   /* for scroll lock feature */
@@ -78,4 +76,20 @@ ul {
   .siteContainer{
     width: 80vw;
   }  
+}
+
+/* font */
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/Josefin/JosefinSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/Josefin/JosefinSans-Bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
 }
