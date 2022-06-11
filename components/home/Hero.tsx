@@ -13,7 +13,7 @@ export const Hero = () => {
             <p className={styles.landingIntroText}>
               I&apos;m a full stack engineer who specializes in creating 
               extraordinary applications and one of a kind digital experiences. I&apos;m currently developing accessible,
-              modern products at <a href="https://boxhub.com" rel="Boxhub company page" target="_blank">Boxhub</a>.
+              modern products at <a href="https://boxhub.com" title="Boxhub company page" target="_blank" rel="noreferrer">Boxhub</a>. 
             </p>
             <RippleButton text={"Get in touch!"} link={"#contact-section"}/>
           </div>
