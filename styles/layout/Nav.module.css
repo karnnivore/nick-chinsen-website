@@ -105,3 +105,7 @@
   -ms-transform-origin: right;
   transform-origin: right;
 }
+
+.headerLogo {
+  margin-top: 5px !important; 
+}

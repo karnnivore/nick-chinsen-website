@@ -2,31 +2,64 @@ import styles from '../../styles/common/CareerCard.module.css'
 
 export const CareerCards = ({selected} : any) => {
 
+  const renderBoxhub = () => {
+    return (
+      <div className={styles.careerCard}>
+        <h3>Full Stack Engineer <span>@ Boxhub</span></h3>
+        <h4>May 2022 - Present</h4>
+        <h4>Developing logistics application to simplify the process of buying and selling shipping containers</h4>
+        <h4>(React, Next.js, .NET, TypeScript, Tailwind, CSS, HTML, SQL, Github actions CI)</h4>
+        <ul>
+      
+        </ul>
+      </div>
+    )
+  }
+
+  const renderAbledocs = () => {
+    return (
+      <div className={styles.careerCard}>
+        <h3>Intermediate Full Stack Engineer<span> @ Abledocs</span></h3>
+        <h4>January 2022 - May 2022</h4>
+        <h4>Developed components for the ADAlign online education portal in React and .NET</h4>
+        <h4>(React, .NET, TypeScript, Redux, NoSQL, Azure, Auth0, Stripe)</h4>
+        <ul>
+          <li>Developed login and registration flow integrating Auth0, using JWT tokens for user authentication</li>
+          <li>Created billing components, integrating Stripe API to accept payments in the application</li>
+          <li>Engineered reusable React components with a focus on accessibility</li>
+          <li>Develop .Net API REST endpoints to support business needs</li>
+          <li>Responsible for production build deployements using Azure pipelines</li>
+          <li>Interact with a document NoSQL database, creating documents when needed</li>
+        </ul>
+      </div>
+    )
+  }
+
   const renderLBC = () => {
     return (
     <div className={styles.careerCard}>
-      <h3>Full Stack Developer <span>@ LBC IT</span></h3>
-      <h4>April 2021 - Present</h4>
-      <h4>Developing enterprise web applications for TELUS & TIFF and other clients</h4>
+      <h3>Full Stack Engineer <span>@ LBC IT</span></h3>
+      <h4>April 2021 - January 2022</h4>
+      <h4>Developed enterprise web applications for TELUS & TIFF and other clients</h4>
       <h4>(React, .NET, TypeScript, Bootstrap, CSS, HTML, SQL, Git, SQL Server, Azure, PHP, Ruby)</h4>
       <ul>
         <li>
-          Develop reusable web components using Typescript & Bootstrap for enterprise React/.Net application
+          Develope reusable web components using Typescript & Bootstrap for enterprise React/.Net application
         </li>
         <li>
-          Debug and create solutions for problems within existing codebase   
+          Debuged and created solutions for problems within existing codebase   
         </li>
         <li>
-          Create REST APIs using .NET to connect backend & frontend
+          Created REST APIs using .NET to connect backend & frontend
         </li>
         <li>
-          Design repository functions to efficiently query database tables
+          Designed repository functions to efficiently query database tables
         </li>
         <li>
-          Update legacy websites using HTML, CSS, Typescript, PHP, and Ruby
+          Updated legacy websites using HTML, CSS, Typescript, PHP, and Ruby
         </li>
         <li>
-          Interact with business partners gathering needs and feedback for components
+          Interacted with business partners gathering needs and feedback for components
         </li>
       </ul>
     </div>
@@ -61,7 +94,7 @@ export const CareerCards = ({selected} : any) => {
   const renderAxcys = () => {
     return (
     <div className={styles.careerCard}>
-      <h3>Full-Stack Developer co-op <span>@ Axcys</span></h3>
+      <h3>Frontend Engineer co-op <span>@ Axcys</span></h3>
       <h4>Jan 2021 - Apr 2021</h4>
       <h4>Developed a web application for the build-to-order furniture supply chain industry</h4>
       <h4>(React, Redux, CSS, HTML, .NET, MySQL, Axios, Git, Microsoft Azure, Visual Paradigm)</h4>
@@ -107,10 +140,12 @@ export const CareerCards = ({selected} : any) => {
   }
   return (
     <>
-      {selected === 1 && renderLBC()}
-      {selected === 2 && renderAxcys()}
-      {selected === 3 && renderCrue()}
-      {selected === 4 && renderFreelance()}
+      {selected === 1 && renderBoxhub()}
+      {selected === 2 && renderAbledocs()}
+      {selected === 3 && renderLBC()}
+      {selected === 4 && renderAxcys()}
+      {selected === 5 && renderCrue()}
+      {selected === 6 && renderFreelance()}
     </>
   )
 }

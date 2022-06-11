@@ -17,16 +17,22 @@ export const Career = () => {
         <div className={styles.careerTableSection}>
           <div className={styles.careerth}>
             <a id="tab1" onClick={() => setTab(1)} className={`${currentTab == 1 && styles.selected}`}>
+              <span>Boxhub</span>
+            </a>
+            <a id="tab2" onClick={() => setTab(2)} className={`${currentTab == 2 && styles.selected}`}>
+              <span>Abledocs</span>
+            </a>
+            <a id="tab3" onClick={() => setTab(3)} className={`${currentTab == 3 && styles.selected}`}>
               <span>LBC IT</span>
             </a>
-            <a id="tab3" onClick={() => setTab(2)} className={`${currentTab == 2 && styles.selected}`}>
+            <a id="tab4" onClick={() => setTab(4)} className={`${currentTab == 4 && styles.selected}`}>
               <span>DadoLinks</span>
             </a>
             <div className={styles.break}></div>
-            <a id="tab4" onClick={() => setTab(3)} className={`${currentTab == 3 && styles.selected}`}>
+            <a id="tab5" onClick={() => setTab(5)} className={`${currentTab == 5 && styles.selected}`}>
               <span>Crue TV</span>
             </a>
-            <a id="tab2" onClick={() => setTab(4)} className={`${currentTab == 4 && styles.selected}`}>
+            <a id="tab6" onClick={() => setTab(6)} className={`${currentTab == 6 && styles.selected}`}>
               <span>Freelance</span>
             </a>
           </div>

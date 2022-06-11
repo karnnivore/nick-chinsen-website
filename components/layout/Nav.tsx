@@ -16,6 +16,7 @@ export const Nav = ({show} : INavProps)=> {
               src="/images/NLogo.svg"
               height={50}
               width={50}
+              className={styles.headerLogo}
             />
           </a>
           <li>
