@@ -11,8 +11,8 @@ export const Hero = () => {
             <h1 className={styles.name}>Nick Chinsen</h1>
             <h2 className={styles.nameSubText}>Innovation never stops I don&apos;t either</h2>
             <p className={styles.landingIntroText}>
-              I&apos;m a full stack developer who specializes in creating 
-              extraordinary digital experiences. I&apos;m currently developing accessible,
+              I&apos;m a full stack engineer who specializes in creating 
+              extraordinary applications and one of a kind digital experiences. I&apos;m currently developing accessible,
               modern products at <a href="https://boxhub.com" rel="Boxhub company page" target="_blank">Boxhub</a>.
             </p>
             <RippleButton text={"Get in touch!"} link={"#contact-section"}/>
